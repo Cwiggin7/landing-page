@@ -112,3 +112,45 @@ ul {
 #quote-box {
     width: 75%;
 }
+
+
+#section4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+
+#action-box {
+    display: flex;
+    background: #3882F6;
+    height: 125px;
+    width: 75%;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#action-box > * {
+    color: white;
+}
+
+#button2 {
+    background: transparent;
+    border: 3px solid white;
+    font-size: large;
+    width: 125px;
+    border-radius: 10px;
+}
+
+#foot {
+    background: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+#foot > * {
+    color: white;
+}
